@@ -23,5 +23,49 @@ public class operadores_java {
 		
 		System.out.println();
 		
+		
+		boolean abc = false;
+		
+		abc = !abc;
+		
+		System.out.println(abc);
+		
+		// Operador ternário: simplifica uma condição de if else
+		int a , b;
+		a = 6;
+		b = 3;
+		
+//		String resultado = "";
+//		
+//		if (a == b)
+//			resultado = "Verdadeiro";
+//		else
+//			resultado = "Falso";
+		String resultado = a == b ? "Verdadeiro" : "Falso";
+		
+		//Pode-se substituir o Verdadeiro e falso por 1 : 0 respectivamente
+		
+		System.out.println(resultado);
+		
+		//Operadores relacionais, Define-se o operando a esquerda comparado com o operando da direita
+		// == Igualdade
+		// != Diferença
+		// < Menor
+		// > maior
+		// <= menor igual
+		// >= maior igual
+		
+		// Operadores Lógicos
+		// && operador E
+		// || operador OU
+		
+		boolean test = true;
+		int a1 = 3;
+		int b2 = 2;
+		
+		if (a1 > b2 && a1 * b >= 4)
+			test = false;
+		
+		System.out.println(test);
 	}
 }
