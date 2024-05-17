@@ -1,0 +1,15 @@
+package pilares_Poo;
+
+public abstract class Veiculo {
+private String Chassi;
+	
+	public String getChassi() {
+		return Chassi;
+	}
+
+	public void setChassi(String chassi) {
+		Chassi = chassi;
+	}
+	
+	public abstract void Ligar();
+}
