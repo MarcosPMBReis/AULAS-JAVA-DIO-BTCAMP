@@ -4,5 +4,5 @@
 /**
  * 
  */
-module java_class_anatomy {
+module ListProjectJavaDIo {
 }
